@@ -28,7 +28,8 @@ change the owner of a file using ```chown``` and change the group of a file usin
 
 ```
 Commands like ls,cat are files.
-When it is run, the content of the program is read from file and loaded into the memory and then instructions are executed by operating system```
+When it is run, the content of the program is read from file and loaded into the memory and then instructions are executed by operating system
+```
 
 # ps
 
@@ -412,7 +413,7 @@ MyPrompt:
 
 
 
-##Note: 
+## Note: 
 
 - By default newline is added after '>' and '>>' command.
 - wc command also counts new line (\n ) character
