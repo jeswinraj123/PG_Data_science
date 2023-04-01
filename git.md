@@ -1,3 +1,6 @@
+# GIT commands
+
+
 ### Set up ssh and copy ssh public key to github
 
 On your local machine:
