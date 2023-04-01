@@ -1,6 +1,5 @@
 # GIT commands
 
-
 ### Set up ssh and copy ssh public key to github
 
 On your local machine:
@@ -117,7 +116,7 @@ git branch -r
 Create a new local branch
 
 ```
-git branch feature1
+git branch feature1 
 ```
 
 Checkout to another branch
@@ -129,7 +128,7 @@ git checkout feature1
 Create and checkout to a new branch in same command
 
 ```
-git branch -M feature1
+git branch -M feature1 or git checkout -b feature1
 ```
 
 Stage added/modified/deleted files.
@@ -197,7 +196,7 @@ git branch -d feature1
 git branch -D feature1
 ```
 
-Delete a remote branch and local too
+Delete a remote branch and local too (make sure to be in other branch)
 
 ```
 git push origin --delete feature1
@@ -373,6 +372,7 @@ It will remove the commits from commit history but not change the files and inde
 ```
 git reset --soft HEAD~1
 git reset --soft b006030
+git push -f origin branch
 ```
 
 #### Hard reset
