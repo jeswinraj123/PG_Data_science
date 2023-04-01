@@ -1,6 +1,5 @@
 # GIT commands
 
-
 ### Set up ssh and copy ssh public key to github
 
 On your local machine:
@@ -129,7 +128,7 @@ git checkout feature1
 Create and checkout to a new branch in same command
 
 ```
-git branch -M feature1
+git branch -M feature1 or git checout -b feature1
 ```
 
 Stage added/modified/deleted files.
@@ -373,6 +372,7 @@ It will remove the commits from commit history but not change the files and inde
 ```
 git reset --soft HEAD~1
 git reset --soft b006030
+git push -u origin
 ```
 
 #### Hard reset
@@ -450,5 +450,5 @@ git stash show
 Or pass the -p option (or --patch) to view the full diff of a stash:
 
 ```
-git stash show -p
+git stash show -p or git stash show stash@{1} -p
 ```
